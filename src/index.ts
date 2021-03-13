@@ -46,7 +46,7 @@ class hello extends LitElement {
   render () {
     console.log('render')
     return html`
-      <p>Hello 2 ${this.name}!</p>
+      <p>Hello ${this.name}!</p>
     `
   }
 
