@@ -1,0 +1,11 @@
+export default {
+  open: true,
+  nodeResolve: true,
+  watch: true,
+  appIndex: 'demo.html',
+  // in a monorepo you need to set set the root dir to resolve modules
+  rootDir: '.',
+  // debug: false,
+  // hostname: "localhost",
+  // port:"8080",
+};
