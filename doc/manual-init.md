@@ -97,7 +97,7 @@ Run this command
 
 When this pakage was installed you sould make a config server file we make `dev-server.mjs` as follow:
 
-```JSON
+```javascript
  export default {
   open: false,
   nodeResolve: true,
