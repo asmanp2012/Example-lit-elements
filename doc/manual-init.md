@@ -28,7 +28,8 @@ in the `./src/index.ts` you should put this code:
 
 ```node
 console.log('Hello World');
-```node
+```
+
 Run this command to compile your `typescript` to `javascript`
 
 ```node
