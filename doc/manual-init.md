@@ -41,13 +41,14 @@ After the run, you can see node make a folder by the `dist` name and compile you
 
 ----
 For run javascript files you should add `package.json` params as follows:
- `name`: `1-typescript-seed`
- `version`: `1.0.0`
- `main`: `./dist/index.js`
- `type`: `module`
- `author`: `Your name`,
- `license`: `ISC`,
- `description`: `Test typescript`
+
+  1. `name`: `1-typescript-seed`
+  2. `version`: `1.0.0`
+  3. `main`: `./dist/index.js`
+  4. `type`: `module`
+  5. `author`: `Your name`,
+  6. `license`: `ISC`,
+  7. `description`: `Test typescript`
 
 For example my `package.json` to be:
 
@@ -224,9 +225,9 @@ yarn i -D @webcomponents/webcomponentsjs
 
 After that, you should add the below options to the `tsconfig.json`
 
-`target`: `ES2017`
-`moduleResolution`: `node`
-`experimentalDecorators`:`true`
+1. `target`: `ES2017`
+1. `moduleResolution`: `node`
+1. `experimentalDecorators`:`true`
 
 ### Start project
 
