@@ -1,4 +1,5 @@
 import { LitElement, html, property, PropertyValues } from 'lit-element'
+
 class hello extends LitElement {
   // type: String, Specifies how to convert between property and attribute.
   // attribute: 'my-prop', Specifies corresponding observed attribute.
@@ -15,7 +16,7 @@ class hello extends LitElement {
   name = 'World';
 
   constructor () {
-    super()
+    super();
     console.log('constructor')
   }
 
@@ -46,7 +47,8 @@ class hello extends LitElement {
   render () {
     console.log('render')
     return html`
-      <p>Hello ${this.name}!</p>
+      <h1>Hello ${this.name}! LitElement web components </h1>
+      <h2>Check your console for watch lifecycle lit element</h2>
     `
   }
 

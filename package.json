@@ -6,8 +6,10 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint --fix src/**/*.ts",
+    "prepare": "yarn build",
     "serve": "web-dev-server --watch --config dev-server.mjs",
-    "watch": "npm-run-all --parallel lint build serve"
+    "watch": "npm-run-all --parallel watch:* lint serve",
+    "watch:ts": "yarn build --watch"
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "2.5.0",
