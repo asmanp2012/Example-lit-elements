@@ -13,7 +13,8 @@
     "watch:ts": "yarn build --watch"
   },
   "dependencies": {
-    "cytoscape": "^3.27.0"
+    "vis-data": "^7.1.9",
+    "vis-network": "^9.1.9"
   },
   "devDependencies": {
     "@types/cytoscape": "^3.19.16",
