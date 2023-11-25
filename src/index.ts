@@ -3,7 +3,6 @@ import cytoscape from '../dist/cytoscape/cytoscape.esm.min.js'
 
 const cy = cytoscape({
   container: document.getElementById('cy'),
-
   elements: {
     nodes: [
       {
